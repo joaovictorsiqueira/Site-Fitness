@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #2B1821;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    transition: 0.3s;
+
+}
+
+.logo a:hover {
+    filter: drop-shadow(3px 0px 5px rgb(255, 4, 4));
+
+}
+
+
+.logo-img {
+    width: 30px;
+    padding-bottom: 3px;
+}
+
+.logo-txt {
+    letter-spacing: 1px;
+    padding-left: 3px;
+
+}
+
+.cabecalho .menu li {
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-right: 5px;
+    padding: 10px 0;
+    transition: 0.4s;
+}
+
+.cabecalho .menu li:hover {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.cabecalho .menu li a {
+    transition: 0.4s;
+    padding: 15px;
+}
+
+.cabecalho .menu li a:hover {
+    color: #2B1821;
+    font-weight: 600;
+
+}
+
+.home {
+    background-color: tomato;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .informacoes{
+    background-color: rgb(83, 83, 206);
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.informacoes h1{
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-size: 70px;
+    width: 400px;
+    line-height: 0.9;
+}
+
+.informacoes p {
+    color: #ffffff;
+    font-family: "DM sans", sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+.informacoes .btn-informacoes {
+    background-color: #FD288D;
+    color: #ffffff;
+    padding: 15px 90px;
+    border-radius: 50px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+
+}
+
+.img-principal{   
+    background-color: chocolate;
+    margin-right: 70px;    
+}
+
+
