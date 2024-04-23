@@ -16,6 +16,7 @@ html {
     align-items: center;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
+    margin-left: 40px;
     transition: 0.3s;
 
 }
@@ -63,20 +64,19 @@ html {
 }
 
 .home {
-    background-color: tomato;
+    background-color: #2B1821;
     min-height: calc(100vh - 90px);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.home .informacoes{
-    background-color: rgb(83, 83, 206);
+.home .informacoes {
     margin-left: 70px;
-    margin-top: -50px;
+    margin-top: -30px;
 }
 
-.informacoes h1{
+.informacoes h1 {
     color: #ffffff;
     font-family: 'DM Sans';
     font-size: 70px;
@@ -89,7 +89,7 @@ html {
     font-family: "DM sans", sans-serif;
     font-size: 22px;
     font-style: italic;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .informacoes .btn-informacoes {
@@ -103,9 +103,127 @@ html {
 
 }
 
-.img-principal{   
-    background-color: chocolate;
-    margin-right: 70px;    
+.bg-principal {
+    margin-right: 70px;
+    position: relative;
+    width: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+}
+
+.phone-img {
+    position: absolute;
+    width: 310px;
+    height: auto;
+    display: block;
+}
+
+.blob-img {
+    width: 100%;
+    height: auto;
+}
+
+.sobre {
+    background-image: url(../src/img/imagem\ fundo\ sec2.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
+
+
+.sobre-txt {
+    position: relative;
+    z-index: 1;    
+    color: #FD288D;
+    margin: 0 70px;
+    text-align: center;
+    background-color: #2B1821;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+.sobre-txt h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 15px;
+
+
+}
+
+.sobre-txt p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.recursos{
+    background-color: #2B1821;
+    min-height: 100vh;
+}
+
+.recursos h2 {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #fd288d;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    color: #ffffff;
+    margin: 70px 70px;
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.card1 img, .card2 img, .card3 img {
+    background-color: #fd288d;
+    border-radius: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card1-descricao, .card2-descricao, .card3-descricao {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-align: center;
+}
+
+.card1 h3, .card2 h3, .card3 h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fd288b;
+    padding-bottom: 5px;
+
+}
+
+.card1 p, .card2 p, .card3 p {
+    font-family: 'DM Sans', sans-serif;
+}
