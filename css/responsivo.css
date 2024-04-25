@@ -60,4 +60,48 @@
         height: 420px;
     }
   
+    .depoimentos {
+        position: relative;
+        height: auto;
+    }
+
+    .depoimentos h2 {
+        position: absolute;
+        margin: 70px;
+        top: 0;
+    }
+
+    .cards-depoimentos {
+        gap: 30px;
+        margin-top: 160px ;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }   
+
+}
+
+@media (max-width: 955px) {
+    .card1 img, .card2 img, .card3 img {
+        padding: 20px;
+        width: 140px;
+    }
+
+    .card1-descricao, .card2-descricao, .card3-descricao {
+        padding: 15px 20px;
+    }
+    
+    .cards h3 {
+        font-size: 16px;
+    }
+    
+    .cards p {
+    font-size: 12px;
+    }    
+}
+
+@media (max-width: 870px) {
+    .sobre-txt p {
+        font-size: 14px;
+    }
 }
