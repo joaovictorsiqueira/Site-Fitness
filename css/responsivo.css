@@ -82,6 +82,7 @@
 }
 
 @media (max-width: 955px) {
+    
     .card1 img, .card2 img, .card3 img {
         padding: 20px;
         width: 140px;
@@ -101,7 +102,99 @@
 }
 
 @media (max-width: 870px) {
+    .logo a {
+        padding: 0 50px 0 0;
+    }
+
+    .cabecalho .menu ul {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 50px; 
+             
+    }
+
+    .menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }  
+   
+    
+    .mobile-menu ul {        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;       
+    }
+    
+    .mobile-menu ul a {
+        font-family: 'DM sans', sans-serif;
+        padding-bottom: 5px;
+        
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+        
+    }
+
+    .open {
+        display: block;
+    }
+
     .sobre-txt p {
         font-size: 14px;
     }
+
+    .recursos {
+        height: auto;
+    }
+
+    .recursos .cards{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: auto;
+        padding-bottom: 50px;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .dicas {        
+        height: auto;
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 100px;
+    }
+
+    .img-sec5 {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    .img-sec5 img {
+        width: 320px;
+        display: flex; 
+        position: relative;
+       
+    }
+
+    .card-dicas {
+        padding: 20px;
+        height: 420px;
+        margin: 0;
+    }
+
+    .btn-dicas button {
+        margin-top: 3   0px;
+    }
+
+
+
 }
