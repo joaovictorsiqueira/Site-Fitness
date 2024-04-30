@@ -63,6 +63,14 @@ html {
 
 }
 
+.menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 .home {
     background-color: #2B1821;
     min-height: calc(100vh - 90px);
