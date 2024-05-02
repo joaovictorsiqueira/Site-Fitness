@@ -104,6 +104,7 @@
 @media (max-width: 870px) {
     .logo a {
         padding: 0 50px 0 0;
+        margin-left: 0;
     }
 
     .cabecalho .menu ul {
