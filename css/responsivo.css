@@ -112,11 +112,17 @@
 
     .menu-icon {
         display: block;
-        width: 50px; 
+        width: 60px; 
+        position: relative;
+        right: 10%;
              
     }
 
     .menu-icon button {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        padding: 20px 15px 0 0;
         background-color: transparent;
         border: none;
         cursor: pointer;
@@ -127,21 +133,30 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 1rem;       
+        padding-bottom: 1rem; 
+        gap: 10px;  
+        background-color: #fd288bda; 
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        padding: 20px 30px; 
+        position: fixed;
+        z-index: 1;
+        top: 10vh;
+        right: 0; 
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        color: #ffffff;
+        font-weight: 800;
     }
     
     .mobile-menu ul a {
         font-family: 'DM sans', sans-serif;
-        padding-bottom: 5px;
-        
+        font-size: 18px;              
     }
 
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-        
-    }
-
+    
     .open {
         display: block;
     }
