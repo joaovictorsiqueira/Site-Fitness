@@ -216,3 +216,43 @@
 
 
 }
+
+@media (max-width: 450px) {  
+    .home {
+        gap: 120px;
+    }
+    
+    .home .informacoes {
+        margin-top: 30px;
+        gap: 30px;
+        max-height: 100vh;
+    }
+
+    .home h1{        
+        font-size: 45px;
+        width: 300px;
+        margin: 0 auto;
+    } 
+
+    .home p {
+        font-size: 18px;
+    }
+
+    .home .btn-informacoes {
+        margin-top: 30px;
+    }
+
+    .bg-principal {
+        justify-content: center;
+        align-items: center;
+        width: 265px;  
+        height: 100%;            
+    }
+
+    .bg-principal .phone-img {
+        width: 230px;
+        height: 330px;
+        
+    }
+
+}
