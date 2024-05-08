@@ -210,7 +210,7 @@
     }
 
     .btn-dicas button {
-        margin-top: 3   0px;
+        margin-top: 30px;
     }
 
 
@@ -254,5 +254,44 @@
         height: 330px;
         
     }
+
+    .recursos h2 {
+        font-size: 32px;
+    }
+
+    .treinos h2 {
+        font-size: 32px;
+    }
+
+    .treinos p {
+        font-size: 14px;
+        width: 280px;
+    }
+    
+    .img-sec5 img {
+        width: 220px;              
+    }
+
+    .card-dicas {
+        padding: 30px 70px;
+        width: 360px;
+        height: 370px;
+        margin: 0 auto;        
+    }
+
+    .card-dicas h2 {    
+        font-size: 32px;          
+        padding-bottom: 20px;
+    }
+
+    .card-dicas p {
+        font-size: 14px;
+    }
+
+    .card-dicas button {
+        padding: 10px 90px;
+        font-size: 14px; 
+    }
+    
 
 }
